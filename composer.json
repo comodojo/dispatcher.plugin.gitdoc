@@ -1,0 +1,29 @@
+{
+    "name": "comodojo/dispatcher.plugin.gitdoc",
+    "description": "A plugin to generate documentation automatically from Github with comodojo/dispatcher.framework",
+    "license": "GPL-3.0+",
+    "type": "dispatcher-plugin",
+    "keywords": [
+        "comodojo",
+        "dispatcher",
+        "plugin",
+        "github",
+        "documentation",
+        "docs",
+        "git"
+    ],
+    "homepage": "http://dispatcher.comodojo.org",
+     "support": {
+        "issues": "https://github.com/comodojo/dispatcher.plugin.gitdoc/issues"
+    },
+    "authors": [
+        {
+            "name": "Marco Giovinazzi",
+            "email": "info@comodojo.org"
+        }
+    ],
+    "extra": {
+        "comodojo-plugin-load": "GitdocPlugin",
+        "comodojo-folders-create": ["docs","downloads"]
+    }   
+}
