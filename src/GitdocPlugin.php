@@ -165,7 +165,7 @@ $gp = new GitdocPlugin();
 
 foreach ($gp::getProjects() as $project) {
     
-    $dispatcher->setRoute($project, "ROUTE", "exhibitor.php", Array("class" => "exhibitor"));
+    $dispatcher->setRoute($project, "ROUTE", "vendor/comodojo/dispatcher.servicebundle.gitdoc/services/exhibitor.php", Array("class" => "exhibitor"), false);
 
     $dispatcher->addHook("dispatcher.request.".$project, $gp, "routeService");
 
