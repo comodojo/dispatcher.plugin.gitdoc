@@ -10,15 +10,9 @@ class GitdocPlugin {
 
     private static $configuration = "releases.json";
 
-    private $versions = array(
-        // "dispatcher"    =>  array("live", "3.0.0"),
-        // "core"          =>  array("live", "1.0.0")
-    );
+    private $versions = array();
 
-    private $current = array(
-        // "dispatcher"    =>  "3.0.0",
-        // "core"          =>  "1.0.0"
-    );
+    private $current = array();
 
     public function __construct() {
 
